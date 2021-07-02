@@ -1,5 +1,9 @@
 function post(){
-  console.log("非同期投稿を実装");
+  const submit = getElementById("submit_btn")
+  submit.addEventListener("click", (e) => {
+    e.preventDefault();
+    console.log("submit_btn")
+  });
 };
 
 window.addEventListener("load", post);
