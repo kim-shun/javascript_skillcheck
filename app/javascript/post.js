@@ -1,8 +1,8 @@
 function post(){
-  const submit = document.getElementById("submit_btn");
-  submit.addEventListener("click", (e) => {
+  const newArticle = document.getElementById("new_article");
+  newArticle.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log(submit);
+    console.log(newArticle);
   });
 };
 
